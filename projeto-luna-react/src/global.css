@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ysabeau Infant', sans-serif;
+
+}
+
+.dark {
+    background-color: #1a1818;
+    color: #ffffff;
+  }
+  
+.dark h2 {
+    color: #ffffff;
+  }
+  
+.dark p {
+    color: #ffffff;
+  }

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
+
+.headerContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    padding: 8rem;
+    background-image: url(../../assets/star.png);
+    background-position: 0 0;
+    background-repeat: repeat;
+    overflow: hidden;
+    background-color: #d994f9;
+    animation: colorChange 5s infinite, moveStars 10s linear infinite;
+}
+
+@keyframes moveStars {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+.headerTitle {
+    font-size: 3rem;
+    color: #0a0a0a;
+    margin-right: 10rem;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.headerImage {
+    width: 27%;
+    border-radius: 5%;
+    margin-left: 10%;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
+    
+}
+
+
