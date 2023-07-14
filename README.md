@@ -56,5 +56,5 @@ Todas as páginas terão os componentes:
 # Citação e Agradecimento
 
 <p>
-Aula e Projeto criados por Simara Conceição 💜
+Aula guiada por Lilit Bandeira e Projeto criado por Simara Conceição 💜
 </p>
