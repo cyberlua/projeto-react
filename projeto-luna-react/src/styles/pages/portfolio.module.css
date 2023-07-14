@@ -1,33 +1,46 @@
 .repoContainer {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
     gap: 3rem;
-    width: 80%;
+    grid-template-columns: repeat(2, 1fr);
     margin: 0 auto;
     padding: 2rem;
-  }
-  
+    width: 80%;
+}
+
 .cardRepo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
     background-color: #dc79ee;
-    padding: 1rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
     transition: background-color 0.3s ease-in-out;
 }
 
 .cardRepo:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     background-color: #ca72f3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .textTitle {
     display: flex;
-    justify-content: center;
-    text-align: center;
-    padding: 2%;
     font-size: 2.5rem;
+    justify-content: center;
+    padding: 2%;
+    text-align: center;
 }
+
+@media(max-width: 765px) {
+    .repoContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .cardRepo {
+      width: 150px;
+    }
+  
+  }

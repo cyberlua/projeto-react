@@ -4,8 +4,8 @@ import DarkMode from './componentes/DarkMode';
 import React, { useState, useEffect } from 'react';
 
 function App() {
-  
-  const [isDarkMode, setIsDarkMode] = useState(false); 
+
+  const [isDarkMode, setIsDarkMode] = useState(false);
 
   useEffect(() => {
     const body = document.querySelector('body');
@@ -16,8 +16,8 @@ function App() {
     }
   }, [isDarkMode]);
 
-  const toggleDarkMode = () => { 
-    setIsDarkMode(!isDarkMode); 
+  const toggleDarkMode = () => {
+    setIsDarkMode(!isDarkMode);
   };
 
   return (
@@ -25,7 +25,7 @@ function App() {
       <div className='App'>
         <Router />
         <DarkMode isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
-        </div>
+      </div>
     </>
   )
 }

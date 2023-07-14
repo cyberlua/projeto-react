@@ -1,11 +1,9 @@
 .footerContainer {
-    padding: 2rem;
+    background-color: #d994f9;
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: #d994f9;
+    padding: 2rem;
 }
-
 
 .footerContent {
     color: #000000;

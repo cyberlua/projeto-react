@@ -6,7 +6,7 @@
 
 ### Quem é a Cyberlua?
 
-<img src='./assets/female-ghost-face' width=500 alt='foto ilustrativa de uma mulher ghost face'>
+<img src='./assets/female-ghost-face.png' width=500 alt='foto ilustrativa de uma mulher ghost face'>
 
 [Luna Trevisan](https://www.instagram.com/cyberlua7/), é uma pernambucana, aluna da reprograma da turma on23 front-end e uma apaixonada pelos jogos eletrônicos e desse universo da tecnologia, e claro, amandando essa área da programação. 
 

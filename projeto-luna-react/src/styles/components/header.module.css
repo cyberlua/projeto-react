@@ -1,42 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
 
 .headerContainer {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: center;
-    gap: 4rem;
-    padding: 8rem;
-    background-image: url(../../assets/star.png);
-    background-position: 0 0;
-    background-repeat: repeat;
-    overflow: hidden;
-    background-color: #d994f9;
-    animation: colorChange 5s infinite, moveStars 10s linear infinite;
+  align-items: center;
+  animation: colorChange 5s infinite, moveStars 10s linear infinite;
+  background-color: #0a0a0a;
+  background-image: url("https://media4.giphy.com/media/TCx4FU3NRdZqU/giphy.gif?cid=ecf05e47zucic7b9y01rluqcnjncst0wc8173vkv3ixc1u0s&ep=v1_gifs_related&rid=giphy.gif&ct=s");
+  background-position: 0 0;
+  background-repeat: repeat;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  overflow: hidden;
+  padding: 8rem;
 }
 
 @keyframes moveStars {
   0% {
     background-position: 0 0;
   }
+
   100% {
     background-position: 100% 0;
   }
 }
 
 .headerTitle {
-    font-size: 3rem;
-    color: #0a0a0a;
-    margin-right: 10rem;
-    font-family: 'Rajdhani', sans-serif;
+  color: #ede9e9;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 3rem;
+  margin-right: 10rem;
 }
 
 .headerImage {
-    width: 27%;
-    border-radius: 5%;
-    margin-left: 10%;
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
-    
+  border-radius: 5%;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
+  margin-left: 10%;
+  width: 27%;
+
 }
 
+@media(max-width: 765px) {
+  .headerContainer {
+    display: flex;
+    flex-direction: column;
+  }
 
+  .headerImage{
+    width: 100%;
+  }
+
+  .headerTitle {
+    display: flex;
+    margin-left: 130%;
+  
+
+  }
+}

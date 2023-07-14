@@ -1,23 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
 
 .darkModeContainer {
-    position: absolute;
-    top: 0;
-    right: 0;
     padding: 2.5%;
-    
+    position: absolute;
+    right: 0;
+    top: 0;
+
 }
 
 .darkmode {
-    background-color: #dc79ee;
-    color: #fff;
-    padding: 0rem 0.5rem;
+    background-color: #040404;
     border: none;
     border-radius: 5px;
-    font-size: 1.2rem;
+    color: #fff;
     cursor: pointer;
-    transition: background-color 0.3s ease;
     font-family: 'Rajdhani', sans-serif;
+    font-size: 1.2rem;
+    padding: 0rem 0.5rem;
+    transition: background-color 0.3s ease;
 }
 
 .darkmode:hover {

@@ -7,7 +7,7 @@ import Contato from './pages/Contato'
 import Footer from './componentes/Footer'
 
 const Router = () => {
-    return ( 
+    return (
         <BrowserRouter>
             <Menu />
             <Routes>
@@ -16,9 +16,9 @@ const Router = () => {
                 <Route path="/portfolio" element={<Portfolio />} />
                 <Route path="/contato" element={<Contato />} />
             </Routes>
-                <Footer content="Feito com 💜 por cyberlua - aluna reprograma front-end - projeto React JS" />
+            <Footer content="Feito com 💜 por cyberlua - aluna reprograma front-end - projeto React JS" />
         </BrowserRouter>
-     );
+    );
 }
- 
+
 export default Router;

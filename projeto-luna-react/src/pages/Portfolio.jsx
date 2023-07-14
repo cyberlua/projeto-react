@@ -19,19 +19,19 @@ const Portfolio = () => {
       }
     };
     getData();
-}, []);
+  }, []);
 
   return (
     <>
       <Header title="Alguns projetos que fiz" image={portfolio} />
-      <h2 className={styles.textTitle}>Projetos GitHub</h2> 
+      <h2 className={styles.textTitle}>Projetos GitHub</h2>
       <div className={styles.repoContainer}>
         {reposFromApi.map((repo) => (
           <div className={styles.cardRepo} key={repo.id}>
             <h3 className={styles.cardText}>{repo.name}</h3>
             <p className={styles.cardText}>{repo.description}</p>
             <a className={styles.cardLink} href={repo.html_url} target="_blank" rel="noreferrer">
-            <TiArrowForward />
+              <TiArrowForward />
             </a>
           </div>
         ))}

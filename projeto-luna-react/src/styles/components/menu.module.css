@@ -1,25 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
 
 .menuContainer {
-    display: flex;
-    justify-content: center;
     align-items: center;
-    padding: 2rem;
+    background-color: #d994f9;
+    display: flex;
     gap: 10rem;
+    justify-content: center;
     list-style: none;
-    background-color: #000000;
+    padding: 2rem;
 }
 
 .menuLink {
-    text-decoration: none;
-    font-size: 1.5rem;
-    color:#ffffff;
+    color: #040404;
     font-family: 'Rajdhani', sans-serif;
-    
+    font-size: 1.5rem;
+    text-decoration: none;
 }
 
 .menuIconContainer {
-    display: flex;
     align-items: center;
+    display: flex;
     gap: 50%;
 }
+
+@media(max-width: 765px) {
+    .menuContainer {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+  }
